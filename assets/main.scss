@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-a {
-  color: red;
+.router-link-exact-active {
+  color: green;
 }
