@@ -1,5 +1,5 @@
 export default function useTodo() {
-    const todoList = ref([])
+    const todoList = useState('todoList', () => [])
 
     function addTodo(payload) {
         todoList.value = [...todoList.value, payload]

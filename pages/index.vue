@@ -1,11 +1,12 @@
 <template>
-  <div>
+  <div class="container mx-auto">
     <h2>This is Index Page</h2>
     <Todo/>
   </div>
 </template>
 
 <script setup>
+
 // setTimeout(() =>{
 //   navigateTo('/about')
 // }, 2000)
